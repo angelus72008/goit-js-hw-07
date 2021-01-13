@@ -19,6 +19,5 @@ list_3.forEach((elem, index) => {
   let h2 = document.querySelectorAll('h2');
   let li = document.querySelectorAll('li.item ul');
   console.log(`Количество элементов: ${h2[index].textContent}`);
-  console.log(`Категория: ${name}`);
-  
+  console.log(`Категория: ${name}`);  
 })
